@@ -108,7 +108,7 @@ cb2 = ttk.Combobox(frame2, textvariable=cb2_val, height=10, width=43)
 cb2['values'] = combo2_itmes
 frame2.grid()
 cb2.grid(row=1)
-cb2.bind('<<ComboboxSelected>>', lambda e:[fun2(combo2_itmes, int(cb2.current()))])
+cb2.bind('<<ComboboxSelected>>', lambda e:[func2(combo2_itmes, int(cb2.current()))])
 
 
 # - combo box3 / channel list of selected workspace
